@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de cadastro</title>
+</head>
+<body>
+    <form name="signUp"  onsubmit="alert('formulario enviado com sucesso')" autocomplete="on" target="_self" method="post" action="#">
+        Nome: <input type="text" name="name"/><br>
+        Idade: <input type="number" name="age"/><br>
+        Senha: <input type="password" name="password"/><br>
+        <button type="submit">Enviar</button>
+    </form>
+    <h2>tipos de input</h2>
+    <form><br>
+         <label>Text: </label><input type="text"><br>
+         <label>Number: </label><input type="number" min="0" max="120"><br>
+         <label>Button: </label><input type="button" value="Enviar"><br>
+         <label>Range: </label><input type="range"><br>
+         <label>Color: </label><input type="color"><br>
+         <label>Email: </label><input type="email" > <br>
+         <label>Url: </label><input type="url"><br>
+         <label>Date: </label><input type="date" > <br>
+         <label>Week: </label><input type="week" > <br>
+         <label>Month: </label><input type="month" > <br>
+         <label>Checkbox: </label><input type="checkbox"><br>
+         <label>Radio: </label><input type="radio" name="Aceita" ><input type="radio" name="Aceita" > <br>
+         <label>Hidden: </label> <input type="hidden"><br>
+         <label>File: </label><input type="file" multiple><br>
+         <label>Search: </label><input type="search"><br>
+         <button type="submit">Enviar</button><br>
+    </form>
+</body>
+</html>
